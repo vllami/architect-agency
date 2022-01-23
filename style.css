@@ -1,32 +1,73 @@
-/* .container {
+@font-face {
+    font-family: BubblegumSans;
+    src: url('fonts/BubblegumSans.ttf');
+}
 
-} */
-
-.banner-image {
+.hero-image {
     background-image: url("img/hero.jpg");
     background-size: cover;
 }
 
 .marketing-text {
     color: white;
+    padding-top: 140px;
+    text-shadow: 0px 0px 100px black;
 }
 
 .title {
+    padding: 32px 0 28px 0;
     text-align: center;
-    font-size: 30px;
     color: black;
     font-weight: bold;
+}
+
+.logo {
+    font-family: BubblegumSans;
+    font-size: 30px;
 }
 
 .product {
     text-align: center;
     width: auto;
-    padding: 0 80px 50px 80px;
+    padding: 0 92px 60px 92px;
     margin: 0 auto;
 }
 
-.about-section {
-    padding: 50px;
+.card {
+    padding: 20px 20px 25px 20px;
+}
+
+.card-img-top {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    all: unset;
+}
+
+.card-group {
+    padding: 0 0 85px 0;
+}
+
+.active {
+    font-weight: 500;
+}
+
+.nav-menu {
+    padding: 0 5px 2px 50px;
+    margin-right: -14px;
+    font-size: 16.5px;
+}
+
+.nav-padding {
+    margin-left: 2.5px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
     text-align: center;
-    color: black;
+    margin-bottom: -16px;
 }
