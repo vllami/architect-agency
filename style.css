@@ -1,0 +1,32 @@
+/* .container {
+
+} */
+
+.banner-image {
+    background-image: url("img/hero.jpg");
+    background-size: cover;
+}
+
+.marketing-text {
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.product {
+    text-align: center;
+    width: auto;
+    padding: 0 80px 50px 80px;
+    margin: 0 auto;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
