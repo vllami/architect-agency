@@ -1,2 +1,2 @@
 # architect-agency
-for tugas
+Tugas Kelompok - SYNRGY Academy
